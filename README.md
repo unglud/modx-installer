@@ -5,7 +5,7 @@ Downloading last stable version from [modxcms/revolution](https://github.com/mod
 
 So this package will everything for you.
 
-[![GitHub release](https://img.shields.io/github/release/modx-installer.svg)](https://github.com/unglud/modx-installer/releases)
+[![GitHub release](https://img.shields.io/github/release/unglud/modx-installer.svg)](https://github.com/unglud/modx-installer/releases)
 [![License](https://img.shields.io/packagist/l/unglud/modx-installer.svg)](https://github.com/unglud/modx-installer/blob/master/LICENSE)
 [![Total Downloads](https://img.shields.io/packagist/dt/unglud/modx-installer.svg)](https://packagist.org/packages/unglud/modx-installer)
 
