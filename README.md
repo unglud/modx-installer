@@ -19,14 +19,6 @@ composer create-project unglued/modx-installer
 
 After install complete, you will see password for admin.
 
-Then you have to run `composer update` to install the package and it dependencies if needed. Once this is completed, you have to add the service provider to the providers array in `config/app.php`:
-
-```
-'Unglued\LavaImage\LavaImageServiceProvider',
-```
-
-Run php artisan vendor:publish to publish this package configuration. Afterwards you can edit the file `config/lavaimage.php`.
-
 ## Release Notes
 ### v0.0.1
 #### 19 dec 2015
