@@ -1,6 +1,6 @@
 {
     "name": "unglued/modx-installer",
-    "description": "Simple installer for MODx CMF with filling all data automagically",
+    "description": "Simple composer installer for MODx CMF with filling all data automagically",
     "version":"0.0.1",
     "authors": [
         {
