@@ -1,0 +1,53 @@
+{
+    "name": "unglued/modx-installer",
+    "description": "Simple installer for MODx CMF with filling all data automagicaly",
+    "version":"0.0.1-dev",
+    "authors": [
+        {
+            "name": "Alex Heinz",
+            "email": "unglud@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "config": {
+        "preferred-install": "dist"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "modxcms/revolution",
+                "version": "2.4.2",
+                "dist": {
+                    "url": "https://github.com/modxcms/revolution/archive/v2.4.2-pl.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "https://github.com/modxcms/revolution.git",
+                    "type": "git",
+                    "reference": "2.x"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "modxcms/revolution",
+                "version": "3.0",
+                "source": {
+                    "url": "https://github.com/modxcms/revolution.git",
+                    "type": "git",
+                    "reference": "dev-3.x"
+                }
+            }
+        }
+    ],
+    "require": {
+    	"modxcms/revolution":"~2"
+    },
+    "scripts": {
+        "post-install-cmd":[
+            "_scripts/build.sh"
+        ]
+    }
+}
