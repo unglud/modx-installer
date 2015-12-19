@@ -1,18 +1,15 @@
-# Contributing guidelines
-Before submitting a new issue or opening a new PR, please search to see if the same issue/PR already exists. You can also look in the [changelog](https://github.com/modxcms/revolution/blob/develop/core/docs/changelog.txt).
+Contributing
+============
 
-Please note, the repository at [modxcms/revolution](https://github.com/modxcms/revolution/) is only for issues & PRs directly related to **MODX Revolution**. Also, if you have discovered a **security vulnerability** of any kind, please report the details to security@modx.com, instead of disclosing details in a public issue.
+If you've written a new function, or fixed a bug, your contribution is welcome!
 
-When submitting new issues and PRs, **always** use the corresponding template.
+Before proposing a pull request, check the following:
 
-### Translations
-Only English lexicon changes are handled in GitHub. If you want to update anything in non-English lexicon files, please do so via [Crowdin](http://translate.modx.com).
+* Your code should follow the [PSR-2 coding standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) (and use [php-cs-fixer](https://github.com/fabpot/PHP-CS-Fixer) to fix inconsistencies).
+* If you add long list of random data, please split the list into several lines. This makes diffs easier to read, and facilitates core review.
+* If you add new functional, please include documentation for it in the README. Don't forget to add a line about new method in the `@property` or `@method` phpDoc entries in [Generator.php](https://github.com/fzaninotto/Faker/blob/master/src/Faker/Generator.php#L6-L118) to help IDEs auto-complete your formatters.
+* If you commit a new feature, be prepared to help maintaining it. Watch the project on GitHub, and please comment on issues or PRs regarding the feature you contributed.
 
-### Other
- * Did you find an issue in xPDO? Please submit it in [xPDO repository](https://github.com/modxcms/xpdo).
- * Did you find an issue in a MODX Extra? Please submit it to that component's repository or contact the author.
- * Looking for advise or help? Please search the [MODX documentation](http://rtfm.modx.com/), the [MODX forums](http://forums.modx.com/) or join to #modx or #xpdo room on IRC FreeNode server (irc.freenode.net).
+Once your code is merged, it is available for free to everybody under the MIT License. Publishing your Pull Request on the MODX Revolution installer repository means that you agree with this license for your contribution.
 
-## Submit an issue
-
-[Clicking here will open a new issue which will have the below template prefilled](https://github.com/modxcms/revolution/i
+Thank you for your contribution! MODX Revolution installer wouldn't be so great without you.
