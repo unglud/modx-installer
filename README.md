@@ -17,7 +17,7 @@ MODX Revolution installer is distributed as a composer package and you may insta
 composer create-project unglued/modx-installer
 ```
 
-Als yYou may just clone this repo and then run install:
+Also you may just clone this repo and then run install:
 ```
 git clone git@github.com:unglud/modx-installer.git modx
 cd modx
