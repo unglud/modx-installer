@@ -1,0 +1,23 @@
+{
+  "name": "unglud/installer",
+  "description": "Composer Plugin, Allow user input before install",
+  "version": "1",
+  "type": "composer-plugin",
+  "authors": [
+    {
+      "name": "Alex Heinz",
+      "email": "unglud@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "extra": {
+    "class": "Composer\\Installers\\Plugin",
+    "comments": {
+      "autoload": {
+        "psr-0": {
+          "Composer\\Installers\\": "src/"
+        }
+      }
+    }
+  }
+}
