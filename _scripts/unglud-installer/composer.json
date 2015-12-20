@@ -10,14 +10,20 @@
     }
   ],
   "license": "MIT",
-  "extra": {
-    "class": "Composer\\Installers\\Plugin",
-    "comments": {
-      "autoload": {
-        "psr-0": {
-          "Composer\\Installers\\": "src/"
-        }
-      }
+  "autoload": {
+    "psr-0": {
+      "Unglud\\Installer\\": "src/"
     }
+  },
+  "extra": {
+    "class": "Unglud\\Installer\\Plugin",
+    "comments": {
+    }
+  },
+  "require": {
+    "composer-plugin-api": "1.0.0"
+  },
+  "require-dev": {
+    "composer/composer": "1.0.*@dev"
   }
 }
