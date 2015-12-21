@@ -14,7 +14,7 @@ So this package will everything for you.
 MODX Revolution installer is distributed as a composer package and you may install it by issuing the Composer create-project command in your terminal:
 
 ```
-composer create-project unglued/modx-installer  --stability dev
+composer create-project unglued/modx-installer
 ```
 
 Also you may just clone this repo and then run install:
