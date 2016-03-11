@@ -11,17 +11,12 @@ So this package will everything for you.
 
 ## Installation
 
-You may just clone this repo:
+You may just clone this repo and then run install:
 ```
 git clone git@github.com:unglud/modx-installer.git modx
 cd modx
-```
-
-Change DB settings in `.env` file and then run install:
-```
 composer install
 ```
-
 
 After install complete, you will see password for admin.
 
