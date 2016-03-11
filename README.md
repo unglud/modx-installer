@@ -11,19 +11,16 @@ So this package will everything for you.
 
 ## Installation
 
-MODX Revolution installer is distributed as a composer package and you may install it by issuing the Composer create-project command in your terminal:
-
-```
-composer create-project unglued/modx-installer
-```
-
-Also you may just clone this repo and then run install:
+You may just clone this repo:
 ```
 git clone git@github.com:unglud/modx-installer.git modx
 cd modx
-composer install
 ```
 
+Change DB settings in `.env` file and then run install:
+```
+composer install
+```
 
 
 After install complete, you will see password for admin.
