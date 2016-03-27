@@ -18,9 +18,9 @@
       "type": "package",
       "package": {
         "name": "modxcms/revolution",
-        "version": "2.4.2",
+        "version": "2.4.3",
         "dist": {
-          "url": "https://github.com/modxcms/revolution/archive/v2.4.2-pl.zip",
+          "url": "https://github.com/modxcms/revolution/archive/v2.4.3-pl.zip",
           "type": "zip"
         },
         "source": {
